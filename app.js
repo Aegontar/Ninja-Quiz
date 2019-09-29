@@ -30,7 +30,7 @@ result.classList.remove("d-none");
 
 let output = 0;
 const timer = setInterval(() => {
-result.querySelector('span').textContent =  `${output}`;
+result.querySelector('span').textContent =  `${output}%`;
 if(output === score) {
   clearInterval(timer);
 } else {
